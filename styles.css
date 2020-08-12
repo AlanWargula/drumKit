@@ -1,0 +1,39 @@
+body,
+html {
+  background-color: #eeeeee;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10vw;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.set {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.drum {
+  height: 30vh;
+  width: 30vw;
+  margin: 1%;
+  line-height: 30vh;
+
+  cursor: pointer;
+  background-color: #eeeeee;
+  border-radius: 30px;
+  text-align: center;
+  box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001, inset 0px 0px 0px 0px #fff9,
+    inset 0px 0px 0px 0px #0001, inset 0px 0px 0px 0px #fff9,
+    inset 0px 0px 0px 0px #0001;
+}
+
+.pressed {
+  box-shadow: 0px 0px 0px 0px #fff9, 0px 0px 0px 0px #fff9,
+    0px 0px 0px 0px #0001, 0px 0px 0px 0px #0001, inset -7px -7px 20px 0px #fff9,
+    inset -4px -4px 5px 0px #fff9, inset 7px 7px 20px 0px #0003,
+    inset 4px 4px 5px 0px #0001 !important;
+  color: coral !important;
+}
